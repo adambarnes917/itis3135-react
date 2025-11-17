@@ -1,9 +1,10 @@
+import { Link } from "react-router";
 export default function Navbar() {
     return (
         <nav>
-        <a href="/"><div>Home</div></a>
-        <a href="/introduction"><div>Introduction</div></a>
-        <a href="/contract"><div>Contract</div></a>
+        <Link to="/"><div>Home</div></Link>
+        <Link to="/introduction"><div>Introduction</div></Link>
+        <Link to="/contract"><div>Contract</div></Link>
         </nav>
     );
 }
